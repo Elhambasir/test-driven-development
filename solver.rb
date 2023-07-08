@@ -15,6 +15,7 @@ class Solver
     return 'Fizz' if (number % 3).zero?
     return 'Buzz' if (number % 5).zero?
     return number.to_s if number.is_a? Integer
+
     number
   end
 end
